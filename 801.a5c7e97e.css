@@ -1,0 +1,203 @@
+*, ::before, ::after {
+  --tw-border-spacing-x: 0;
+  --tw-border-spacing-y: 0;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-pan-x:  ;
+  --tw-pan-y:  ;
+  --tw-pinch-zoom:  ;
+  --tw-scroll-snap-strictness: proximity;
+  --tw-gradient-from-position:  ;
+  --tw-gradient-via-position:  ;
+  --tw-gradient-to-position:  ;
+  --tw-ordinal:  ;
+  --tw-slashed-zero:  ;
+  --tw-numeric-figure:  ;
+  --tw-numeric-spacing:  ;
+  --tw-numeric-fraction:  ;
+  --tw-ring-inset:  ;
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgb(59 130 246 / 0.5);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  --tw-blur:  ;
+  --tw-brightness:  ;
+  --tw-contrast:  ;
+  --tw-grayscale:  ;
+  --tw-hue-rotate:  ;
+  --tw-invert:  ;
+  --tw-saturate:  ;
+  --tw-sepia:  ;
+  --tw-drop-shadow:  ;
+  --tw-backdrop-blur:  ;
+  --tw-backdrop-brightness:  ;
+  --tw-backdrop-contrast:  ;
+  --tw-backdrop-grayscale:  ;
+  --tw-backdrop-hue-rotate:  ;
+  --tw-backdrop-invert:  ;
+  --tw-backdrop-opacity:  ;
+  --tw-backdrop-saturate:  ;
+  --tw-backdrop-sepia:  ;
+}
+::backdrop {
+  --tw-border-spacing-x: 0;
+  --tw-border-spacing-y: 0;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-pan-x:  ;
+  --tw-pan-y:  ;
+  --tw-pinch-zoom:  ;
+  --tw-scroll-snap-strictness: proximity;
+  --tw-gradient-from-position:  ;
+  --tw-gradient-via-position:  ;
+  --tw-gradient-to-position:  ;
+  --tw-ordinal:  ;
+  --tw-slashed-zero:  ;
+  --tw-numeric-figure:  ;
+  --tw-numeric-spacing:  ;
+  --tw-numeric-fraction:  ;
+  --tw-ring-inset:  ;
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgb(59 130 246 / 0.5);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  --tw-blur:  ;
+  --tw-brightness:  ;
+  --tw-contrast:  ;
+  --tw-grayscale:  ;
+  --tw-hue-rotate:  ;
+  --tw-invert:  ;
+  --tw-saturate:  ;
+  --tw-sepia:  ;
+  --tw-drop-shadow:  ;
+  --tw-backdrop-blur:  ;
+  --tw-backdrop-brightness:  ;
+  --tw-backdrop-contrast:  ;
+  --tw-backdrop-grayscale:  ;
+  --tw-backdrop-hue-rotate:  ;
+  --tw-backdrop-invert:  ;
+  --tw-backdrop-opacity:  ;
+  --tw-backdrop-saturate:  ;
+  --tw-backdrop-sepia:  ;
+}
+.csBot-fixed {
+  position: fixed;
+}
+.csBot-bottom-6 {
+  bottom: 24px;
+}
+
+[dir="ltr"] .csBot-right-6 {
+  right: 24px;
+}
+
+[dir="rtl"] .csBot-right-6 {
+  left: 24px;
+}
+.csBot-mt-\[14px\] {
+  margin-top: 14px;
+}
+.csBot-inline-flex {
+  display: inline-flex;
+}
+.csBot-h-\[16px\] {
+  height: 16px;
+}
+.csBot-h-\[44px\] {
+  height: 44px;
+}
+.csBot-w-\[16px\] {
+  width: 16px;
+}
+.csBot-w-\[44px\] {
+  width: 44px;
+}
+.csBot-cursor-move {
+  cursor: move;
+}
+.csBot-rounded-full {
+  border-radius: 9999px;
+}
+.csBot-bg-\[\#f7a600\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(247 166 0 / var(--tw-bg-opacity));
+}
+.csBot-text-center {
+  text-align: center;
+}
+
+.bybot-iframe {
+  position: fixed;
+  height: 90%;
+  bottom: 24px;
+  max-height: calc(100vh - 88px);
+  border-radius: 16px;
+  width: 100%;
+  pointer-events: auto;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 12px 48px 4px;
+  background-color: #ffffff;
+  z-index: 1001000;
+  opacity: 1;
+  transform: translate(0px, 0px);
+  transition: transform 300ms ease 0s, opacity 300ms ease 0s;
+  visibility: visible;
+  width: 462px;
+}
+
+[dir="ltr"] .bybot-iframe {
+  right: 24px;
+}
+
+[dir="rtl"] .bybot-iframe {
+  left: 24px;
+}
+.cs-bot-modal {
+  background-color: rgba(1, 3, 5, 0.8) !important;
+}
+.cs-bot-image-context {
+  padding: 0 !important;
+}
+.cs-bot-image-container {
+  padding: 0 !important;
+  background-color: transparent !important;
+  width: auto !important;
+}
+/* 针对宽度小于 768px 的设备 */
+@media (max-width: 512px) {
+  .bybot-iframe {
+    height: 100vh;
+    bottom: 0px;
+    top: 0px;
+    width: 100vw;
+    max-height: 100vh;
+    border-radius: inherit;
+  }
+
+  [dir="ltr"] .bybot-iframe {
+    right: 0px;
+  }
+
+  [dir="rtl"] .bybot-iframe {
+    left: 0px;
+  }
+}
+#ada-entry iframe[name="ada-button-frame"] {
+  bottom: -200px !important;
+}
+
